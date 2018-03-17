@@ -1,27 +1,46 @@
-## Use Azure app service editor
+# Teams Bot API #
 
-1. make code change in the online editor
+## Summary ##
 
-Your code changes go live as the code changes are saved.
+This sample demonstrates how to leverage Microsoft Teams API across a Bot.
 
-## Use Visual Studio Code
+[Blog post here https://www.delucagiuliano.com/building-a-microsoft-teams-bot](https://www.delucagiuliano.com/building-a-microsoft-teams-bot)
 
-### Build and debug
-1. download source code zip and extract source in local folder
-2. open the source folder in  Visual Studio Code
-3. make code changes
-4. download and run [botframework-emulator](https://emulator.botframework.com/)
-5. connect the emulator to http://localhost:3987
+### When to use this pattern? ###
+This sample is suitable when you want to implement a Microsoft Teams Bot and leveraging its API. 
 
-### Publish back
+<p align="center">
+  <img src="./images/Teams.PNG"/>
+  <img src="./images/Teams2.PNG"/>
+  <img src="./images/Teams3.PNG"/>
+  <img src="./images/Teams4.PNG"/>
+  <img src="./images/Teams5.PNG"/>
+  <img src="./images/Teams6.PNG"/>
+</p>
 
-```
-npm run azure-publish
-```
+## Solution
 
-## Use continuous integration
+Solution|Author(s)
+--------|---------
+teams-bot-API | Giuliano De Luca (MVP Office Development) - Twitter @giuleon
 
-If you have setup continuous integration, then your bot will automatically deployed when new changes are pushed to the source repository.
+## Version history
 
+Version|Date|Comments
+-------|----|--------
+1.0 | Marz 17, 2018 | Initial release
 
+## Disclaimer
+**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
+---
+
+## Minimal Path to Awesome
+
+- Clone this repository and follow the instructions below
+
+## Prerequisites ##
+ 
+### Deploy the solution on Azure or run it locally ###
+- You can create a new Bot on Azure and copy paste the content in the files **app.js** and **package.json**
+- Install ngrok and run locally on your machine the Bot
